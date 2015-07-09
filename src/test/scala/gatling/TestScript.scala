@@ -22,30 +22,6 @@ class TestScript extends Simulation {
         
           setUp(scn.inject(atOnceUsers(5))).protocols(httpConf)
 }
-//    .exec(
-//      http("home page")
-//        .get(baseurl)
-//        .check(status.is(200)))
-
-    /*.exec(
-      http("facebook login")
-        .post(baseurl + "/login")
-        .formParam("email", "payalvashist13@gmail.com")
-        .formParam("pass", "@678")
-        .check(status.is(200)))*/
-
-  /* .exec(
-      http("facebook login fail response")
-        .post(baseurl + "/login")
-        .formParam("email", "swati.rao@knoldus.com")
-        .formParam("pass", "232313")
-        .check(status.is(400)))
-
-  
-
-  setUp(scn.inject(atOnceUsers(10))).protocols(httpConf)
-
-}*/
 
 
     
